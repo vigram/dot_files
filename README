@@ -18,9 +18,10 @@
   change that.
 
 * Switch to zsh :
-
-  $ chsh
+  Install ZSH shell: $ sudo apt-get install zsh
   
+  $ chsh -s /bin/zsh
+
 * Close the terminal
 * Logout from your active session. 
 * Open terminal and voila, you should have zsh with new prompt and everything working.

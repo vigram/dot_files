@@ -25,13 +25,13 @@
   bra = branch -a
 
 [user]
-	name = Vishnu Atrai
-	email = me@vishnuatrai.com
+	name = vigram
+	email = vigram.k@gmail.com
 [mergetool "diffmerge"]
 	cmd = diffmerge --merge --result=$MERGED $LOCAL $BASE $REMOTE
 	trustExitCode = false
 [github]
-	user = vatrai
+	user = vigram
 [difftool "Kaleidoscope"]
 	cmd = ksdiff-wrapper git \"$LOCAL\" \"$REMOTE\"
 [difftool]

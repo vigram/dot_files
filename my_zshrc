@@ -118,13 +118,12 @@ fi
 # Aliases
 alias g='git'
 alias gst='git status'
-alias gl='git pull'
+alias gl='git log'
 alias gup='git fetch && git rebase'
 alias gp='git push'
-alias gd='git diff | mate'
+alias gd='git diff'
 alias gdv='git diff -w "$@" | vim -R -'
-alias gc='git commit -v'
-alias gca='git commit -v -a'
+alias gc='git checkout'
 alias gb='git branch'
 alias gba='git branch -a'
 alias gcount='git shortlog -sn'
@@ -141,11 +140,9 @@ alias psr="ps axu|grep ruby"
 alias ..2="cd ../.."
 alias ..3="cd ../../.."
 alias r="rake"
+alias wd="<your_app_path>"
 alias screen="screen -h 5000"
 alias emacs="open -a Emacs.app"
-alias em="/Applications/Emacs.app/Contents/MacOS/bin/emacsclient --no-wait"
-alias cl="cd ~/apps/CyncAbl-R3"
-alias rls="cd ~/apps/rails"
 alias ls="ls -G"
 export EDITOR="vim"
 

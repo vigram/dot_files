@@ -8,7 +8,7 @@
   $ ln -s ~/dot_files/irbrc ~/.irbrc
   $ ln -s ~/dot_files/gitconfig ~/.gitconfig
   $ mkdir ~/bin (if bin directory doesn't exist)
-  $ ln -s ~/sake ~/bin/sake
+  $ ln -s ~/dot_files/sake ~/bin/sake
   $ ln -s ~/dot_files/screenrc ~/.screenrc
 
 * Modify ~/dot_files/my_zshrc 
@@ -21,6 +21,7 @@
   Install ZSH shell: $ sudo apt-get install zsh
   
   $ chsh -s /bin/zsh
+     If chsh doesn't work then open ~/.zshrc file and add "zsh" at end  
 
 * Close the terminal
 * Logout from your active session. 

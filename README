@@ -21,7 +21,7 @@
   Install ZSH shell: $ sudo apt-get install zsh
   
   $ chsh -s /bin/zsh
-     If chsh doesn't work then open ~/.zshrc file and add "zsh" at end  
+     If chsh doesn't work then open ~/.bashrc file and add "zsh" at end  
 
 * Close the terminal
 * Logout from your active session. 

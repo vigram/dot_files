@@ -1,6 +1,8 @@
-* Setting this up *
+dotfiles are helping you to personalize your system
 
-* Clone the repo:
+## Install
+
+* Clone the repo: git clone https://github.com/vigram/dot_files.git ~/dot_files
 
 * Create couple of symbolic links:
 
@@ -17,9 +19,10 @@
   other stuff is configured according to the way, I have setup my machine.You may need to
   change that.
 
-* Switch to zsh :
-  Install ZSH shell: $ sudo apt-get install zsh
-  
+* Install ZSH shell:
+  - $ sudo apt-get install zsh
+
+* Switch to zsh:  
   $ chsh -s /bin/zsh
      If chsh doesn't work then open ~/.bashrc file and add "zsh" at end  
 
